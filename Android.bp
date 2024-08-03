@@ -79,3 +79,17 @@ prebuilt_etc {
     src: "mlkitbarcode/privapp_whitelist_com.google.android.apps.mlkit.xml",
     filename_from_src: true,
 }
+
+android_app_import {
+	name: "Keyboard",
+	apk: "Keyboard/Keyboard.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+    preprocessed: true,
+	privileged: true,
+	skip_preprocessed_apk_checks: true,
+	product_specific: true,
+	overrides: ["LatinIME"],
+}

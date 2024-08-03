@@ -40,3 +40,9 @@ ifeq ($(TARGET_BUILD_VIMUSIC),true)
 PRODUCT_PACKAGES += \
     ViMusic
 endif
+
+# Keyboard
+ifneq ($(WITH_GAPPS),true)
+PRODUCT_PACKAGES += \
+    Keyboard
+endif
