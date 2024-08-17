@@ -48,3 +48,6 @@ PRODUCT_PACKAGES += \
 # JudgeInterface
 PRODUCT_PACKAGES += \
     JudgeInterface
+
+# Pif
+include vendor/extras/pif/pif.mk
