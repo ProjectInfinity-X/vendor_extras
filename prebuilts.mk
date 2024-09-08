@@ -30,6 +30,11 @@ endif
 PRODUCT_PACKAGES += \
     ViaBrowser
 
+# Prebuilt packages
+PRODUCT_PACKAGES += \
+    MlkitBarcodeUIPrebuilt \
+    VisionBarcodePrebuilt
+
 # ViMusic
 ifeq ($(TARGET_BUILD_VIMUSIC),true)
 PRODUCT_PACKAGES += \
