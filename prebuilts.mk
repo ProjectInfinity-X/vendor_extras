@@ -34,3 +34,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MlkitBarcodeUIPrebuilt \
     VisionBarcodePrebuilt
+
+# Clocks
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Flex \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather
