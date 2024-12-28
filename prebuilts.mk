@@ -51,3 +51,6 @@ PRODUCT_PACKAGES += \
 
 # Pif
 include vendor/extras/pif/pif.mk
+
+# GameProps
+include vendor/extras/gameprops/game_props.mk
