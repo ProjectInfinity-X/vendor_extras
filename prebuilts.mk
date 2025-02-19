@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
     JudgeInterface
 
 # Sounds
+ifeq ($(WITH_GAPPS),true)
 PRODUCT_COPY_FILES += \
     vendor/extras/sounds/Your_new_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_new_adventure.ogg \
     vendor/extras/sounds/Eureka.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Eureka.ogg \
@@ -60,6 +61,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Your_new_adventure.ogg \
     ro.config.notification_sound=Eureka.ogg \
     ro.config.alarm_alert=Fresh_start.ogg
+endif
 
 # Pif
 include vendor/extras/pif/pif.mk
