@@ -67,4 +67,4 @@ endif
 include vendor/extras/pif/pif.mk
 
 # GameProps
-include vendor/extras/gameprops/game_props.mk
+TARGET_PRODUCT_PROP += vendor/extras/gameprops/gameprops.prop
