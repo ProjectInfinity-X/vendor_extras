@@ -10,12 +10,9 @@
 # limitations under the License.
 #
 
-# DOT Gallery
+# Gallery
 PRODUCT_PACKAGES += \
-    DotGallery
-
-PRODUCT_COPY_FILES += \
-    vendor/extras/permissions/privapp-permissions-dotgallery.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-dotgallery.xml
+    Glimpse
 
 # MotoCalculator
 ifeq ($(USE_MOTO_CALCULATOR),true)
