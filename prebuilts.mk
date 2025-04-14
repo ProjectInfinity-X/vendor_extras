@@ -15,12 +15,14 @@ PRODUCT_PACKAGES += \
     Glimpse
 
 # MotoCalculator
+ifneq ($(WITH_GAPPS),true)
 ifeq ($(USE_MOTO_CALCULATOR),true)
 PRODUCT_PACKAGES += \
     MotoCalculator
 else
 PRODUCT_PACKAGES += \
     ExactCalculator
+endif
 endif
 
 # Via
