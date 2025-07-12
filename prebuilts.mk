@@ -25,6 +25,11 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-NumOverlap \
     SystemUIClocks-Weather
 
+# Prebuilt packages
+PRODUCT_PACKAGES += \
+    MlkitBarcodeUIPrebuilt \
+    VisionBarcodePrebuilt
+
 # Sounds
 PRODUCT_COPY_FILES += \
     vendor/extras/sounds/Your_new_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_new_adventure.ogg \
