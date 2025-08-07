@@ -14,6 +14,11 @@
 PRODUCT_PACKAGES += \
     Glimpse
 
+ifneq ($(WITH_GAPPS),true)
+PRODUCT_PACKAGES += \
+    ViaBrowser
+endif
+
 # Clocks
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
