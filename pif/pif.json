@@ -1,20 +1,16 @@
 {
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 9 Pro",
-    "FINGERPRINT": "google/caiman_beta/caiman:16/BP31.250610.004/13769805:user/release-keys",
-    "BRAND": "google",
-    "PRODUCT": "caiman_beta",
-    "DEVICE": "caiman",
-    "RELEASE": "16",
-    "ID": "BP31.250610.004",
-    "INCREMENTAL": "13769805",
-    "TYPE": "user",
-    "TAGS": "release-keys",
-    "SECURITY_PATCH": "2025-07-05",
-    "DEVICE_INITIAL_SDK_INT": "32",
-
-    "*.build.id": "BP31.250610.004",
-    "*.security_patch": "2025-07-05",
-    "*api_level": "32"
-
+  "TYPE": "user",
+  "TAGS": "release-keys",
+  "ID": "BP2A.250805.005",
+  "BRAND": "google",
+  "DEVICE": "mustang",
+  "FINGERPRINT": "google/mustang/mustang:16/BP2A.250805.005/13691446:user/release-keys",
+  "MANUFACTURER": "Google",
+  "MODEL": "Pixel 10 Pro XL",
+  "PRODUCT": "mustang",
+  "RELEASE": "16",
+  "SECURITY_PATCH": "2025-08-05",
+  "DEVICE_INITIAL_SDK_INT": 32,
+  "DEBUG": false,
+  "SDK_INT": "36"
 }
