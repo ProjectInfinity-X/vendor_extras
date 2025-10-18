@@ -11,6 +11,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.pihooks_SECURITY_PATCH?=2025-10-05 \
     persist.sys.pihooks_ID?=BP41.250916.010.A1
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    remote_provisioning.enable_rkpd=true \
+    remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PihooksGmsFp="google/comet_beta/comet:16/BP41.250916.010.A1/14281945:user/release-keys" \
     PihooksGmsModel="Pixel 9 Pro Fold" \
