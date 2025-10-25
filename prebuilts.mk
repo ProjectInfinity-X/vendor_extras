@@ -49,3 +49,6 @@ endif
 
 # Pif
 include vendor/extras/pif/pif.mk
+
+# GameProps
+TARGET_PRODUCT_PROP += vendor/extras/gameprops/gameprops.prop
