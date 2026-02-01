@@ -46,6 +46,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.alarm_alert=Fresh_start.ogg
 endif
 
+# Overlay
+PRODUCT_PACKAGES += \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay
+
 # Pif
 include vendor/extras/pif/pif.mk
 
