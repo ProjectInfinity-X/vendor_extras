@@ -1,4 +1,4 @@
-# Copyright (C) 2024-25 Project Infinity X
+# Copyright (C) 2024-26 Project Infinity X
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -105,14 +105,14 @@ persist.sys.gameprops.com.mobile.legends.BRAND?=POCO
 persist.sys.gameprops.com.mobile.legends.DEVICE?=POCO F5
 persist.sys.gameprops.com.mobile.legends.MANUFACTURER?=Xiaomi
 persist.sys.gameprops.com.mobile.legends.MODEL?=23049PCD8G
-persist.sys.gameprops.com.dts.freefireth.BRAND?=asus
-persist.sys.gameprops.com.dts.freefireth.DEVICE?=Rog Phone 1
-persist.sys.gameprops.com.dts.freefireth.MANUFACTURER?=asus
-persist.sys.gameprops.com.dts.freefireth.MODEL?=ASUS_Z01QD
-persist.sys.gameprops.com.dts.freefirethmax.BRAND?=asus
-persist.sys.gameprops.com.dts.freefirethmax.DEVICE?=Rog Phone 1
-persist.sys.gameprops.com.dts.freefirethmax.MANUFACTURER?=asus
-persist.sys.gameprops.com.dts.freefirethmax.MODEL?=ASUS_Z01QD
+persist.sys.gameprops.com.dts.freefireth.BRAND?=realme
+persist.sys.gameprops.com.dts.freefireth.DEVICE?=Realme 14 5G
+persist.sys.gameprops.com.dts.freefireth.MANUFACTURER?=realme
+persist.sys.gameprops.com.dts.freefireth.MODEL?=RMX5070
+persist.sys.gameprops.com.dts.freefiremax.BRAND?=realme
+persist.sys.gameprops.com.dts.freefiremax.DEVICE?=Realme 14 5G
+persist.sys.gameprops.com.dts.freefiremax.MANUFACTURER?=realme
+persist.sys.gameprops.com.dts.freefiremax.MODEL?=RMX5070
 persist.sys.gameprops.com.activision.callofduty.shooter.MANUFACTURER?=lenovo
 persist.sys.gameprops.com.activision.callofduty.shooter.MODEL?=Lenovo TB-9707F
 persist.sys.gameprops.com.ea.gp.fifamobile.BRAND?=Asus
