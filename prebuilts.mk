@@ -52,9 +52,3 @@ PRODUCT_PACKAGES += \
     GlanceableHubSettingsConfigOverlay \
     GlanceableHubSettingsConfigOverlay2022 \
     GlanceableHubSysuiConfigOverlay
-
-# Pif
-include vendor/extras/pif/pif.mk
-
-# GameProps
-TARGET_PRODUCT_PROP += vendor/extras/gameprops/gameprops.prop
