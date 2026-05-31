@@ -1,14 +1,4 @@
 android_app_import {
-        name: "ViaBrowser",
-        dex_preopt: {
-            enabled: false,
-        },
-        apk: "ViaBrowser/ViaBrowser.apk",
-        presigned: true,
-		preprocessed: true,
-}
-
-android_app_import {
 	name: "SystemUIClocks-BigNum",
 	owner: "google",
 	apk: "SystemUIClocks/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk",

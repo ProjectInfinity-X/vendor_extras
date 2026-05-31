@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
-    ViaBrowser
+    Jelly
 endif
 
 # Clocks
