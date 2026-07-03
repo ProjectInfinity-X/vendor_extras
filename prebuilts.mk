@@ -10,6 +10,9 @@
 # limitations under the License.
 #
 
+#AXTflite
+include vendor/extras/misc/ax_tflite/common.mk
+
 # Gallery
 PRODUCT_PACKAGES += \
     Glimpse
