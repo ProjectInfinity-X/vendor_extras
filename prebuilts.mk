@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-Metro \
     SystemUIClocks-NumOverlap
 
+# NavBar
+PRODUCT_PACKAGES += \
+    ImeNavBarSpaceOverlay
+
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     MlkitBarcodeUIPrebuilt \
