@@ -11,7 +11,7 @@
 #
 
 #AXTflite
-include vendor/extras/misc/ax_tflite/common.mk
+#include vendor/extras/misc/ax_tflite/common.mk
 
 # Gallery
 PRODUCT_PACKAGES += \
