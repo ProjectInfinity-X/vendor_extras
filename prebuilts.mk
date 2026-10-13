@@ -10,17 +10,21 @@
 # limitations under the License.
 #
 
-#AXTflite
+# AXTflite
 include vendor/extras/misc/ax_tflite/common.mk
 
-# Gallery
-PRODUCT_PACKAGES += \
-    Glimpse
-
+# Browser
 ifneq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
     Jelly
 endif
+
+# GlanceableHub
+PRODUCT_PACKAGES += \
+    GlanceableHubConfigOverlay \
+    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubSettingsConfigOverlay2022 \
+    GlanceableHubSysuiConfigOverlay
 
 # Clocks
 PRODUCT_PACKAGES += \
